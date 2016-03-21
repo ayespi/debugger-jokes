@@ -1,8 +1,8 @@
 (function(){
   var e = eval(atob("c3Ry"));
   var decode = eval(atob(e));
-  question = decode("V2hhdCBkb2VzIGEgY2xvdWQgd2VhciBvbiBpdHMgYnV0dD8=");
-  answer = decode("VGh1bmRlcnBhbnRzLg==");
+  var question = decode("V2hhdCBkb2VzIGEgY2xvdWQgd2VhciBvbiBpdHMgYnV0dD8=");
+  var answer = decode("VGh1bmRlcnBhbnRzLg==");
   question = decode("V2hhdCBkbyB5b3UgY2FsbCBhIGNvdyB3aXRoIG5vIGxlZ3M/");
   answer = decode("R3JvdW5kIGJlZWYu");
   (function(){
